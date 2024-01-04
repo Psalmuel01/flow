@@ -1,0 +1,39 @@
+{
+	"networks": {
+		"emulator": "127.0.0.1:3569",
+		"mainnet": "access.mainnet.nodes.onflow.org:9000",
+		"testnet": "access.devnet.nodes.onflow.org:9000"
+	},
+	"accounts": {
+		"emulator-account": {
+			"address": "f8d6e0586b0a20c7",
+			"key": "2d1f75d08c42f87e088eec1375aee7ecd190a454a6b7aae70647e5aa903c59bb"
+		},
+		"testnet-account": {
+			"address": "0x560a5d100de7ca8d",
+			"key": {
+			  "type": "hex",
+			  "index": 0,
+			  "signatureAlgorithm": "ECDSA_P256",
+			  "hashAlgorithm": "SHA3_256",
+			  "privateKey": "f73836165dd6d3e51fc5abf834b281d3812ab839749fb8f2940eca83f124c0f6" 
+			}
+		  }
+	},
+	"deployments": {
+		"testnet": {
+		  "testnet-account": [
+			"CryptoPoops"
+		  ]
+		}
+	},
+	"contracts": {
+		"CryptoPoops": "./contracts/CryptoPoops.cdc",
+		"NonFungibleToken": {
+		  "source": "./contracts/NonFungibleToken.cdc",
+		  "aliases": {
+			"testnet": "0x631e88ae7f1d7c20"
+		  }
+		}
+	}	  
+}

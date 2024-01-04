@@ -1,5 +1,5 @@
-import CryptoPoops from 0x05
-import NonFungibleToken from 0x05
+import CryptoPoops from "../contracts/CryptoPoops.cdc"
+import NonFungibleToken from "../contracts/NonFungibleToken.cdc"
 
 transaction() {
   prepare(signer: AuthAccount) {
