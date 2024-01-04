@@ -13,7 +13,6 @@ The `CryptoPoops` smart contract is an implementation of a non-fungible token (N
 - [Public Functions](#public-functions)
 - [Usage](#usage)
 - [Installation](#installation)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Features
